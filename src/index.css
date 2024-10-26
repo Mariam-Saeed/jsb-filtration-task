@@ -188,3 +188,25 @@ h1 {
 	min-height: 117px;
 	background-color: #584125;
 }
+
+@media (max-width: 991px) {
+	.recipes-container {
+		width: 80%;
+		justify-content: center;
+	}
+
+	.recipe {
+		width: 60%;
+	}
+
+	.testymonials-container {
+		width: 70%;
+	}
+
+	.testymonial {
+		width: 70%;
+	}
+	.form {
+		width: 80%;
+	}
+}
